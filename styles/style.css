@@ -1,13 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fonte: "Amarante", serif;
+    --cor-fundo: #000000;
+}
+
 body {
-    background-color: black;
-    color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--cor-fundo);
 }
 
-.destaque1 {
-    color: #FFD369;
+.header {
+    display: flex;
+    padding: 1.5%;
 }
 
-.destaque2 {
-    color: #FFD369;
-    font-weight: bold;
+.nav {
+    font-family: var(--fonte);
+    font-size: 22px;
+}
+
+.nav__items {
+    text-decoration: none;
+    color: white;
+}
+
+.main__home {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte);
+    flex: 1;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    padding: 10%;
+}
+
+.main__home__texto__abertura {
+    display: flex;
+    flex-direction: column;    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    font-family: var(--fonte);
+    font-size: 20px;
+    color: white;
+    padding: 2%;
 }

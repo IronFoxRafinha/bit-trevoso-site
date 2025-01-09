@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=" alt="Logo do site">
+  <img src="assets\img\logos\logo-site.png" alt="Logo do site">
 </p>
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
