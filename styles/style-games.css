@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fonte: "Amarante", serif;
+    --cor-fundo: #000000;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--cor-fundo);
+    background-image: url('https://raw.githubusercontent.com/evertonmissiagia/bit-trevoso-site/refs/heads/main/assets/img/background-images/page-franquias-fundo.jpg');
+    background-repeat: no-repeat;
+}
+
+.header {
+    padding: 1.5%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    font-family: var(--fonte);
+    font-size: 25px;
+    gap: 35px;
+    font-weight: 400;
+}
+
+.nav__items {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    font-family: var(--fonte);
+    font-size: 20px;
+    color: white;
+    padding: 1%;
+}
