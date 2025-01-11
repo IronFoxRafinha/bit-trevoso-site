@@ -69,3 +69,52 @@ body {
     color: white;
     padding: 1%;
 }
+
+/* Media Query aplica o código se a condição estipulada for verdadeira */
+
+@media (max-width: 768px) {  /* Tamanho ajustado para tablet */
+    .header {
+        padding: 2%;
+    }
+    
+    .nav {
+        flex-direction: column;
+        gap: 20px;
+        font-size: 1.6rem;
+    }
+
+    .main__home {
+        padding: 18% 5% 5% 5%;
+        
+    }
+    
+    .main__home__texto__abertura {
+        justify-content: center;
+        margin: 10px 50px 50px 50px;
+    }
+}
+
+@media (max-width: 425px) { /* Tamanho ajustado para celular */
+    .header {
+        padding: 5%;
+    }
+    
+    .nav {
+        flex-direction: column;
+        gap: 20px;
+        font-size: 1.2rem;
+    }
+
+    .main__home {
+        padding: 8% 15%;
+        font-size: 1rem;
+    }
+    
+    .main__home__texto__abertura {
+        margin: 10px 2px 50px 2px;
+    }
+
+    .footer {
+        font-size: 1rem;
+    }
+}
