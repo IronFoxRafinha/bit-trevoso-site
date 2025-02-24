@@ -30,7 +30,7 @@ body {
     display: flex;
     flex-direction: row;
     background-color: black;
-    background-image: url("https://raw.githubusercontent.com/evertonmissiagia/bit-trevoso-site/refs/heads/main/assets/img/background-images/page-home-fundo.jpg?token=GHSAT0AAAAAAC2SXYG2MBILIQABT6N4FVTUZ543SZA");
+    background-image: url("https://github.com/evertonmissiagia/bit-trevoso-site/blob/main/assets/img/background-images/page-estudios-devs-fundo.jpeg");
     color: white;
     height: 35em;
 }
