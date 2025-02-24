@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fonte: "Amarante", serif;
+    --cor-fundo: #000000;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--cor-fundo);
+}
+
+.main__home {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte);
+    font-size: 1.56rem;
+    font-weight: 500;
+}
+
+.main__home__banner1__container {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    background-image: url("https://raw.githubusercontent.com/evertonmissiagia/bit-trevoso-site/refs/heads/main/assets/img/background-images/page-home-fundo.jpg?token=GHSAT0AAAAAAC2SXYG2MBILIQABT6N4FVTUZ543SZA");
+    color: white;
+    height: 35em;
+}
+
+.main__home__banner1__texto {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%d;
+    padding-left: 5%;
+    padding-right: 36%;
+    gap: 1em;
+
+}
+
+.main__home__banner1__texto__titulo {
+    font-size: 3.5em;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    font-family: var(--fonte);
+    font-size: 1.25rem;
+    color: white;
+    padding: 1%;
+}
