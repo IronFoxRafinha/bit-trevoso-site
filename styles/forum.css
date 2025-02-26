@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fonte: "Amarante", serif;
+    --cor-fundo: #000000;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--cor-fundo);
+    color: white;
+}
+
+.main__forum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__forum__write {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.main__forum__post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    background-color: dimgray;
+    gap: 16px;
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.main__forum__post__campo {
+    border-radius: 5px;
+    height: 30px;
+    width: 500px;
+    padding-left: 2%;
+}
+
+.main__forum__message {
+    border-radius: 5px;
+    height: 200px;
+    width: 500px;
+    padding-left: 2%;
+}
+
+.main__forum__botao {
+    border-radius: 5px;
+    height: 40px;
+    width: 120px;
+    background-color: red;
+    color: white;
+    font-family: var(--fonte);
+    font-size: 1.5em;
+}
+
+.main__forum__write__title {
+    font-family: var(--fonte);
+    font-size: 2em;
+}
+
+.main__forum__new__post__title {
+    font-family: var(--fonte);
+    color: white;
+    font-size: 2em;
+}
+
+.main__forum__new__post__user {
+    font-family: var(--fonte);
+    color: white;
+    font-size: 1.3em;
+}

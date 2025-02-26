@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/forum.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main_banner1.css">
+    <title>Home</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <img src="assets\img\logos\logo-site.png" alt="Logo do site" width="120" height="120">
+
+            <a class="header__nav__items" href="index.html">Home</a>
+            <a class="header__nav__items" href="">Games & Franquias</a>
+            <a class="header__nav__items" href="">Estúdios & Empresas</a>
+            <a class="header__nav__items" href="">Timeline</a>
+            <a class="header__nav__items" href="">Curiosidades</a>
+            <a class="header__nav__items" href="forum.html">Forum</a>
+
+        </nav>
+    </header>
+
+    <main class="main__forum">
+        <section class="main__forum__write">
+            <h3 class="main__forum__write__title">Poste sua mensagem!</h3>
+            <form><input class="main__forum__post__campo" id="post-title" type="text" placeholder="Título do post"></form>
+            <form><input class="main__forum__post__campo" id="post-user" type="text" placeholder="Nome ou Nickname"></form>
+            <form><input class="main__forum__message" id="post-message" type="text" placeholder="Digite sua mensagem..."></form>
+            <button type="submit" class="main__forum__botao" id="post-button">Postar</button>
+        </section>
+
+        <section class="main__forum__posts" id="forum-post-area">
+        </section>
+    </main>
+
+    <footer class="footer">
+    <p>Desenvolvido por Everton Missiagia © 2025 </p>
+    </footer>
+    <script src="scripts/app.js" type="module"></script>
+</body>
+</html>

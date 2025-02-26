@@ -16,6 +16,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-color: var(--cor-fundo);
+    color: white;
 }
 
 .main__home {
@@ -30,17 +31,17 @@ body {
     display: flex;
     flex-direction: row;
     background-color: black;
-    background-image: url("https://github.com/evertonmissiagia/bit-trevoso-site/blob/main/assets/img/background-images/page-estudios-devs-fundo.jpeg");
-    color: white;
-    height: 35em;
+    background-image: url("assets/img/background-images/page_home_background_1.jpg");
+    background-repeat: no-repeat;
 }
 
 .main__home__banner1__texto {
     display: flex;
     flex-direction: column;
-    padding-top: 5%d;
+    padding-top: 5%;
     padding-left: 5%;
-    padding-right: 36%;
+    padding-right: 45%;
+    padding-bottom: 5%;
     gap: 1em;
 
 }
