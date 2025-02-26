@@ -7,6 +7,11 @@ const postButton = document.getElementById('post-button');
 postButton.addEventListener('click', function(evento){
     evento.preventDefault();
 
+    if (postTitle.value === '' || postUsername.value === '' || postMessage.value === '') {
+        alert('Preencha todos os campos!');
+        return;
+    }
+
     const newPostDiv = document.createElement('div');
     newPostDiv.classList.add('main__forum__post');
 
@@ -32,5 +37,9 @@ postButton.addEventListener('click', function(evento){
     newPostDiv.appendChild(newPostMessage);
 
     postArea.appendChild(newPostDiv);
+
+    postTitle.value = '';
+    postUsername.value = '';
+    postMessage.value = '';
 
 });
