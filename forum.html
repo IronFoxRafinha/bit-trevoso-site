@@ -20,22 +20,50 @@
             <a class="header__nav__items" href="">Timeline</a>
             <a class="header__nav__items" href="">Curiosidades</a>
             <a class="header__nav__items" href="forum.html">Forum</a>
+            <a href="">Login</a>
 
         </nav>
     </header>
 
-    <main class="main__forum">
-        <section class="main__forum__write">
-            <h3 class="main__forum__write__title">Poste sua mensagem!</h3>
-            <form><input class="main__forum__post__campo" id="post-title" type="text" placeholder="Título do post"></form>
-            <form><input class="main__forum__post__campo" id="post-user" type="text" placeholder="Nome ou Nickname"></form>
-            <form><input class="main__forum__message" id="post-message" type="text" placeholder="Digite sua mensagem..."></form>
-            <button type="submit" class="main__forum__botao" id="post-button">Postar</button>
-        </section>
+    <div class="content">
+        <aside class="aside__forum">
+            <h2 class="aside__forum__title">Tópicos Abertos</h2>
 
-        <section class="main__forum__posts" id="forum-post-area">
-        </section>
-    </main>
+            <div class="aside__forum__topic">
+                <a href="" class="aside__forum__topic__link">
+                    <h3>1998: O ano que nunca acabou</h3>
+                    <p>Discutindo os melhores jogos lançados em 1998</p>
+                </a>
+            </div>
+
+                <div class="aside__forum__topic">
+                    <a href="" class="aside__forum__topic__link">
+                        <h3>1999: O ano que nunca acabou</h3>
+                        <p>Discutindo os melhores jogos lançados em 1999</p>
+                    </a>
+                </div>
+
+                <div class="aside__forum__topic">
+                    <a href="" class="aside__forum__topic__link">
+                        <h3>O revival do gênero survival horror</h3>
+                        <p>Espaço para debate sobre a nova onda de survival horror</p>
+                    </a>
+                </div>
+        </aside>
+
+        <main class="main__forum">
+            <section class="main__forum__write">
+                <h3 class="main__forum__write__title">Poste sua mensagem!</h3>
+                <form><input class="main__forum__post__campo" id="post-title" type="text" placeholder="Título do post"></form>
+                <form><input class="main__forum__post__campo" id="post-user" type="text" placeholder="Nome ou Nickname"></form>
+                <textarea class="main__forum__message" id="post-message" type="text" placeholder="Digite sua mensagem..."></textarea>
+                <button type="submit" class="main__forum__botao" id="post-button">Postar</button>
+            </section>
+
+            <section class="main__forum__posts" id="forum-post-area">
+            </section>
+        </main>
+    </div>
 
     <footer class="footer">
     <p>Desenvolvido por Everton Missiagia © 2025 </p>

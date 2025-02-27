@@ -26,6 +26,7 @@ postButton.addEventListener('click', function(evento){
     newPostUsername.innerText = postUsername.value;
 
     const newPostMessage = document.createElement('p');
+    newPostMessage.classList.add('main__forum__new__post__message')
     newPostMessage.innerText = postMessage.value;
 
     let newPostDate = document.createElement('p');

@@ -21,6 +21,7 @@
 
 .main__forum {
     display: flex;
+    flex: 3;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
@@ -50,6 +51,9 @@
     width: 600px;
     height: 300px;
     border-radius: 20px;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-word;
 }
 
 .main__forum__post__campo {
@@ -57,14 +61,22 @@
     height: 30px;
     width: 500px;
     padding-left: 2%;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-word;
 }
 
 .main__forum__message {
+    display: flex;
     border-radius: 5px;
     height: 200px;
     width: 500px;
-    padding-left: 2%;
+    padding: 3%;
     text-align: center;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow-y: auto;
 }
 
 .main__forum__botao {
@@ -86,10 +98,69 @@
     font-family: var(--fonte);
     color: white;
     font-size: 2em;
+    padding-top: 2%;
 }
 
 .main__forum__new__post__user {
     font-family: var(--fonte);
     color: white;
     font-size: 1.3em;
+}
+
+.main__forum__new__post__message {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow-y: auto;
+}
+
+.aside__forum {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: dimgray;
+    text-align: center;
+    gap: 3%;
+    padding-top: 2%;
+    width: 300px; /* Set a fixed width for the aside */
+    border-radius: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+.aside__forum__topic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 95%;
+    height: 10%;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 150%;
+    overflow: hidden; /* Prevent content overflow */
+    height: 100px; /* Set a fixed height for the topics */
+}
+
+.aside__forum__title {
+    font-family: var(--fonte);
+    font-size: 2em;
+}
+
+.aside__forum__topic__link {
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
 }

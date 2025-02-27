@@ -37,8 +37,6 @@ body {
     min-height: 400px; /* Adicionei uma altura mínima */
 }
 
-/* O erro estava no caminho da imagem. Como o arquivo CSS está dentro da pasta "styles", mas você está tentando acessar a pasta "assets" como se estivesse no mesmo nível, o navegador não consegue encontrar a imagem.*/
-
 .main__home__banner1__texto {
     display: flex;
     flex-direction: column;
