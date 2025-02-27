@@ -31,9 +31,13 @@ body {
     display: flex;
     flex-direction: row;
     background-color: black;
-    background-image: url("assets/img/background-images/page_home_background_1.jpg");
+    background-image: url("../assets/img/background-images/page_home_background_1.jpg");
     background-repeat: no-repeat;
+    background-size: cover; /* Adicionei isso para garantir que a imagem cubra todo o container */
+    min-height: 400px; /* Adicionei uma altura mínima */
 }
+
+/* O erro estava no caminho da imagem. Como o arquivo CSS está dentro da pasta "styles", mas você está tentando acessar a pasta "assets" como se estivesse no mesmo nível, o navegador não consegue encontrar a imagem.*/
 
 .main__home__banner1__texto {
     display: flex;
